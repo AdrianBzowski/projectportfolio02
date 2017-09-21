@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "portfolioproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianBzowski/projectportfolio02.git"
+  },
+  "author": "adrianbzowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianBzowski/projectportfolio02/issues"
+  },
+  "homepage": "https://github.com/AdrianBzowski/projectportfolio02#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "parallax-js": "git+https://github.com/wagerfield/parallax.git",
+    "tilt.js": "^1.1.21"
+  }
+}

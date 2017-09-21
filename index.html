@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/styles.css">
+    <link rel="stylesheet" href="app/css/popup.css">
+</head>
+
+<body>
+    <div class="p p-1"></div>
+    <div class="p p-2"></div>
+    <div class="p p-3"></div>
+    <div class="p p-4"></div>
+    <div class="p p-5"></div>
+    <div class="p p-6"></div>
+
+    <nav class="navbar">
+        <!-- Navbar content -->
+        <!-- Use any element to open the sidenav -->
+        <div class="nav-button"><i class="fa fa-align-justify fa-3x" aria-hidden="true" onclick="openNav()"></i></div>
+    </nav>
+    <aside>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class="cmn-t-translate-bshadow">Home</a>
+            <a href="#" class="cmn-t-translate-bshadow">Services</a>
+            <a href="#" class="cmn-t-translate-bshadow">Clients</a>
+            <a href="#" class="cmn-t-translate-bshadow">Contact</a>
+        </div>
+    </aside>
+
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+
+
+    <header id="main">
+        <!--       Main text in header, center one-->
+        <div class="main__text">
+            <div class="typewriter">
+                <h1>bzowski.</h1>
+
+            </div>
+            <div class="typewriter-mini">
+                <p class="p-one">i am junior front-end</p>
+                <p class="p-two">developer.</p>
+            </div>
+            <a class="btn-outer-style" href=""><button class="main__button btn fill-middle btn-lg btn-info">ready to hire!</button></a>
+            <div class="main__alien">
+                <i class="fa fa-reddit-alien fa-3x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!--       Main text in header, center one //-->
+
+        <!--Stars background-->
+        <div id="stars" class=''>
+
+            <div class="large"></div>
+            <div class="medium"></div>
+            <div class="small"></div>
+        </div>
+        <!--Stars background //-->
+        <div class="container container__header__about opacityoff">
+            <div class="row">
+                <div class="acces-col col-lg-8">
+                    <div class="header__about">
+                        <h2>ACCESS GRANTED</h2>
+                        <h3><span>Name:</span> Adrian<br><span>Race:</span> Human<br><span>Planet:</span> Earth<br> <span>Universe:</span> 616<br><span>Skill path:</span> Front-end</h3>
+                        <h5><span>Abilities:</span> Lateral thinker, ability to communicate with other species, mastermind in problem solving.</h5><br>
+                        <p><span>Primary weapon:</span> HTML-5, CSS-3<br>
+                            <span>Secondary weapon:</span> JS with jQuery modulator<br>
+                            <span>Tertiary weapon:</span> RWD-inoculator<br>
+                            <span>Artillery:</span> AJAX, SASS, GULP, GIT</p>
+                    </div>
+
+                </div>
+                <div class="teleport-col col-lg-4">
+
+                    <img src="img/Portal-PNG-Image.png" alt="">
+                    <a href='#about' class='teleport-button'>Teleport to next section</a>
+
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <aside>
+        <article class="earth-demo">
+
+            <div class="earth">
+                <img src="img/Save-Earth-PNG-Picture.png" alt="trees earth moon buildings save the trees">
+            </div>
+            <div class="moon-container">
+                <div class="moon">
+                    <figure class="img"></figure>
+                </div>
+            </div>
+        </article>
+
+        <article class="rocket">
+
+            <div class="rocket__inner">
+                <img src="img/sdk-rocket.png" alt="">
+
+            </div>
+            <div class="rocket__laser">
+                <img src="img/tiiro.png" alt="">
+            </div>
+        </article>
+
+        <div class="spaceman">
+            <div class="spaceman__inner">
+                <img src="img/ring-rush-spaceman.png" alt="">
+            </div>
+        </div>
+        <div class="spacing"></div>
+    </aside>
+
+    <!--/////////////////////////// SECTION ABOUT ////////////////////////////////////////-->
+    <section id="about">
+        <div class="about-container container-fluid">
+            <div class="row">
+                <div class="about-text col-lg-6">
+                    <div class='about-text-inner1 z-depth-2'>
+                        <div class="about-card image">
+                            <img src='img/pexels-photo-220201.jpeg' alt="earth ziemia cosmos space satellite">
+                            <div class="caption">
+                                <h3>Graphic Designer<br> deviantArt
+                                    <i class="icon1 fa fa-deviantart fa-5x" aria-hidden="true"></i></h3>
+                                <hr>
+                                <a class="btn btn-info btn-lg" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text col-lg-6">
+                    <div class="about-text-inner2 z-depth-2">
+                        <div class="about-card image">
+                            <img src='img/pexels-photo-314726.jpeg' alt="sky clouds sun shine">
+                            <div class="caption">
+                                <h3>Junior Front-End<br> GitHub
+                                    <i class="icon2 fa fa-github-alt fa-5x" aria-hidden="true"></i></h3>
+                                <hr>
+                                <a class="btn btn-info btn-lg" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="projects-text">
+                <i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
+                <h3>Work</h3>
+
+            </div>
+            <div class="row">
+                <div class="borderLeft"></div>
+                <div class="borderTop"></div>
+                <div class="project-inner-col col-lg-4">
+                    <!--Card Narrower-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight hm-zoom z-depth-2">
+                            <img src="img/red-sun-purple-dream.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <h5 class="blue-text"><i class="fa fa-briefcase"></i> Agency Theme</h5>
+                            <!--Title-->
+                            <h4 class="card-title">Deadline Chasers</h4>
+                            <!--Text-->
+                            <p class="card-text">Simple responsive project about interactive agency.<br> Used technologies: HTML, CSS, Bootstrap, JS, jQuery</p>
+                            <a href="https://adrianbzowski.github.io/bootstrapOnePageProject/" class="btn btn-blue">View Project</a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <!--SECOND COLUMN-->
+                <div class="project-inner-col col-lg-4">
+                    <!--Card Narrower-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight hm-zoom z-depth-2">
+                            <img src="img/portfolioImage01.jpeg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <h5 class="blue-text"><i class="fa fa-glass"></i> Drinks</h5>
+                            <!--Title-->
+                            <h4 class="card-title">RedBox drink-bar</h4>
+                            <!--Text-->
+                            <p class="card-text">A project of no longer existing bar in my town.<br> Used technologies: HTML, CSS,Bootstrap, JS, jQuery</p>
+                            <a href="https://adrianbzowski.github.io/drinkBarProject/" class="btn btn-blue">View Project</a>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card Narrower-->
+                </div>
+                <!--THIRD COLUMN-->
+
+                <div class="project-inner-col col-lg-4">
+                    <!--Card Narrower-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight hm-zoom z-depth-2">
+                            <img src="img/pexels-photo-168766.jpeg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-body">
+                            <h5 class="blue-text"><i class="fa fa-child"></i> Fanpage</h5>
+                            <!--Title-->
+                            <h4 class="card-title">Dark Knight</h4>
+                            <!--Text-->
+                            <p class="card-text">Fan page design for Batman and DC universe fans.<br> Used technologies: HTML, CSS, Bootstrap, JS, jQuery</p>
+                            <a href="https://adrianbzowski.github.io/justiceLeague/" class="btn btn-blue">View Project</a>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card Narrower-->
+                </div>
+            </div>
+        </div>
+
+        <div class="comingSoon container">
+            <div class="row">
+                <div class="comingSoon-col col-lg-6">
+                    <!-- Card -->
+                    <div class="card card-image1">
+
+                        <!-- Content -->
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 z-depth-1">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-users"></i> Social</h5>
+                                <h3 class="card-title pt-2"><strong>Not yet finished</strong></h3>
+                                <p>Youtube search engine with Youtube data API, animated search box, stay tuned!</p>
+                                <a class="btn btn-blue disabled"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                        <!-- Content -->
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="comingSoon-col col-lg-6">
+                    <!-- Card -->
+                    <div class="card card-image2">
+
+                        <!-- Content -->
+                        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 z-depth-1">
+                            <div>
+                                <h5 class="blue-text"><i class="fa fa-pie-chart"></i> Marketing</h5>
+                                <h3 class="card-title pt-2"><strong>Not yet finished</strong></h3>
+                                <p>Fully responsive with AJAX dev-technique website which get posts dynamically, without refreshing.</p>
+                                <a class="btn btn-blue disabled"><i class="fa fa-clone left"></i> View project</a>
+                            </div>
+                        </div>
+                        <!-- Content -->
+                    </div>
+                    <!-- Card -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id='employment'>
+
+        <div class="container ">
+
+            <div class="employment-text">
+                <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                <h3>Employment</h3>
+
+            </div>
+            <div class="row employment-row">
+                <!--
+                <div class="borderLeft"></div>
+                <div class="borderTop"></div>
+-->
+
+
+
+
+
+
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="col-lg-4 ">
+
+                                <div class="card">
+                                    <div id="popup">
+                                        <div class="popupcontrols">
+                                            <span id="popupclose"><i class="fa fa-window-close-o fa-2x" aria-hidden="true"></i></span>
+                                        </div>
+                                        <div class="popupcontent">
+                                            <i class="fa fa-wrench fa-5x" aria-hidden="true"></i>
+                                            <p class="popupText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tempora dolor omnis accusamus nobis magnam obcaecati ipsa modi consequuntur necessitatibus? Eaque non voluptatibus tempore, voluptatem praesentium id enim fugiat laboriosam.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>2013-05 ~ 2014-04</h6>
+                                        <!--Title-->
+                                        <h4 class="card-title">Emmigration to United Kingdom</h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">JOB: Multiple warehouse jobs.<br> SKILLS GAINED: responsibility, self-reliance, communication, aspirations, foreign language, cultural awareness.</p>
+                                        <button class="btn btn-primary btn-md" id="button">Show Popup</button>
+                                    </div>
+                                    <!--/.Card content-->
+                                </div>
+                                <!--/.Card Dark-->
+
+                            </div>
+
+
+
+                        </li>
+                        <li>
+
+
+                            <div class="col-lg-4">
+
+                                <div class="card">
+                                    <div id="popup2">
+                                        <div class="popupcontrols">
+                                            <span id="popupclose2"><i class="fa fa-window-close-o fa-2x" aria-hidden="true"></i></span>
+                                        </div>
+                                        <div class="popupcontent">
+                                            <i class="fa fa-wrench fa-5x" aria-hidden="true"></i>
+                                            <p class="popupText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tempora dolor omnis accusamus nobis magnam obcaecati ipsa modi consequuntur necessitatibus? Eaque non voluptatibus tempore, voluptatem praesentium id enim fugiat laboriosam.</p>
+                                        </div>
+                                    </div>
+                                    <!--Card content-->
+                                    <div class="card-body">
+
+                                        <h6>2014-04 ~ 2014-09</h6>
+                                        <!--Title-->
+                                        <h4 class="card-title">Moved back to Poland - Multiple full-time jobs
+                                        </h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">JOBS: Bartender, Warehouseman, Customer service.<br> SKILLS GAINED: perseverance, high-stress resistance, initiative. </p>
+                                        <button class="btn btn-primary btn-md" id="button2">Show Popup</button>
+
+                                    </div>
+                                    <!--/.Card content-->
+
+                                </div>
+                                <!--/.Card Dark-->
+
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div id="popup3">
+                                <div class="popupcontrols">
+                                    <span id="popupclose3"><i class="fa fa-window-close-o fa-2x" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="popupcontent">
+                                    <i class="fa fa-wrench fa-5x" aria-hidden="true"></i>
+                                    <p class="popupText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In tempora dolor omnis accusamus nobis magnam obcaecati ipsa modi consequuntur necessitatibus? Eaque non voluptatibus tempore, voluptatem praesentium id enim fugiat laboriosam.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+
+                                <div class="card">
+
+
+
+                                    <!--Card content-->
+                                    <div class="card-body">
+                                        <h6>2014-09 ~ 2017-05</h6>
+
+                                        <!--Title-->
+                                        <h4 class="card-title">Full time job in supplementation company</h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">JOB: Started from customer service, ended on Allegro branch manager.<br> SKILLS GAINED: use of IT, time management, working in a busy team, teamwork, problem solving, organisation, confidence.</p>
+                                        <button class="btn btn-primary btn-md" id="button3">Show Popup</button>
+
+                                    </div>
+                                    <!--/.Card content-->
+                                </div>
+                                <!--/.Card Dark-->
+
+                            </div>
+
+
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+
+
+            </div>
+            <div id="overlay"></div>
+            <div id="overlay2"></div>
+            <div id="overlay3"></div>
+
+        </div>
+
+    </section>
+
+    <section id="mainFooter">
+        <div class="container-fluid footerContainer">
+            <div class="row">
+                <div class="col text-center firstCol">
+                    <h3>Get in Touch</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Quisquam perferendis expedita.</p>
+
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col secondCol">
+                        <form action="get">
+                            <div class="col-lg-6 nameCol">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6 emailCol">
+
+                                <input type="text" placeholder="Email">
+                            </div>
+
+                            <textarea name="textarea" id="messageArea" placeholder="Leave your message..."></textarea>
+
+
+                            <button class="btn btn-primary btn-lg" type='submit'>Send</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--        ANIMATED AREA-->
+            <!--        <div class="animate-area"></div>-->
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="container mainFooter">
+            <div class="row">
+                <div class="col-lg-6 firstColFooter">
+                    <h4>bzowski</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Fugiat, saepe, sequi error fugit enim architecto odit<br> nemo soluta ipsum nam explicabo<br> officiis amet deleniti accusamus minus<br> perspiciatis rerum neque quos.</p>
+                    <br>
+                    <p class="copy">Bzowski Adrian 2017</p>
+                </div>
+                <div class="col-lg-3 secondColFooter text-left">
+                    <h5>Meet Me</h5>
+                    <ul>
+                        <li><a href="">
+                            About me
+                        </a></li>
+                        <li><a href="">
+                            My projects
+                        </a></li>
+                        <li> <a href="">
+                            Pricings
+                        </a></li>
+                        <li> <a href="">
+                            Location
+                        </a></li>
+                        <li> <a href="">
+                            Ready to hire
+                        </a></li>
+                        <li> <a href="">
+                            Contact
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 thirdColFooter">
+                    <h5>Follow Me</h5>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS   -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.velocity.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+
+
+    <!--    <script src="node_modules/tilt.js/src/tilt.jquery.js"></script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
